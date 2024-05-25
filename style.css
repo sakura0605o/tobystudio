@@ -74,5 +74,30 @@
     font-size: 80px;
 }
 .article{
-    background-color: transparent;
+    background-color: aquamarine;
+    width: auto;
+    height: 1000px;
+    justify-content: center;
+    align-items: center;
+}
+.concept_title h1{
+    font-size: 60px;
+    text-align: center;
+    padding: 70px 0;
+}
+.concept_ul{
+    padding: 150px 0;
+    display: flex;
+    width: 1000px;
+    height: 200px;
+    background-color: #8d3b3b;
+}
+.concept_ul li{
+    display: inline;
+    margin: 5%;
+}
+.concept_meaning_content{
+    font-size: 20px;
+    padding: 150px 0;
+    text-align: center;
 }
