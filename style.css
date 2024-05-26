@@ -47,12 +47,11 @@
 .indeximg{
     position: relative;
     width: 100%;
-    height: 650px; 
-    background: linear-gradient(to bottom,#8d3b3b, #000000);
+    height: 700px; 
 }
 .indeximg img{
     width: 100%;
-    height: 650px;
+    height: 700px;
     display: block;
     object-fit: cover;
     object-position: center center;
@@ -76,8 +75,8 @@
 }
 .article{
     background-color: aquamarine;
-    width: auto;
-    height: 1000px;
+    width: 100%;
+    height: 1200px;
     justify-content: center;
     align-items: center;
 }
@@ -101,4 +100,9 @@
     font-size: 20px;
     padding: 150px 0;
     text-align: center;
+}
+.color{
+    width: 100%;
+    height: 500px;
+    background-color: cadetblue;
 }
