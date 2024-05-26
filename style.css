@@ -18,8 +18,9 @@
     z-index: 3;
 }
 .navlogo{
-    float: left;
-    padding: 0px 100px;
+    padding: 0 0 0 100px;
+    width: 102px;
+    height: 20px;
 }
 .navbar{
     width: 500px;
@@ -60,7 +61,7 @@
     
 }
 .img_text{
-    width: auto;
+    width: 800px;
     position: relative;
     z-index: 2;
     margin-top: -350px;
