@@ -10,7 +10,7 @@
     position: fixed; /*滾動頁面時一樣維持在網頁最上方*/
     width: 100%;
     height: 50px;
-    background-color:white;
+    background-color:aliceblue;
     display: flex;
     justify-content: space-between;    /*物件分散對齊*/
     align-items: center;   /*水平置中*/
@@ -25,7 +25,6 @@
     width: auto;
     display: flex;   /*水平排列*/
     float: right;      /*float:right 向右對齊*/
-    /*justify-content:flex-start ;*/    
     text-align: right;   /*文字向右對齊*/
 }
 .nav_bar ul{
@@ -36,6 +35,7 @@
 .nav_bar li{
     display: inline;  /* inline-水平 */
     margin: 0 20px;
+    list-style-type: none;
 }
 .nav_bar li a{
     color: black;
@@ -46,11 +46,11 @@
 .indeximg{
     position: relative;
     width: 100%;
-    height: 650px; 
+    height: 800px; 
 }
 .indeximg img{
     width: 100%;
-    height: 650px;
+    height: 800px;
     display: block;
     object-fit: cover;
     object-position: center center;
@@ -61,7 +61,7 @@
     width: 800px;
     position: relative;
     z-index: 2;
-    margin-top: -350px;
+    margin-top: -375px;
     margin-left: 100px;
     color: #1a1a1a;
 }
@@ -72,7 +72,7 @@
     font-size: 80px;
 }
 .article{
-    background-color: transparent;
+    background-color: aliceblue;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -202,4 +202,62 @@
     width: 250px;
     text-align: center;
     line-height: 250px; /*文字垂直置中(要設置跟div一樣高度)*/
+}
+.footer{
+    width: 100%;
+    background-color: #29C8FF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 5%;
+}
+.footer_logo{
+    margin: 0 8% 0 3%;
+}
+.footer_nav{
+    display: flex;
+    flex-direction: column; /*垂直排列*/
+}
+.footer_nav_a{
+    margin: 10%;
+}
+.footer_nav_a a{    
+    color: white;
+    text-decoration: none; /*取消超連結底線*/
+    font-size: 20px;
+}
+.footer_contactme{
+    display: flex;
+    flex-direction: column;
+    margin: 0 20%;
+}
+.footer_contactme_title{
+    display: flex;
+}
+.footer_contactme_title_img {
+    display: inline-block;
+    width: 1.2em;
+    height: 1.2em;
+    --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000' d='M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2zm-2 0l-8 5l-8-5zm0 12H4V8l8 5l8-5z'/%3E%3C/svg%3E");
+    background-color: white;
+    -webkit-mask-image: var(--svg);
+    mask-image: var(--svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+    margin: 0 10px 0 10px;
+  }
+.footer_contactme_title h1{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+.footer_contactme_email h1{
+    font-size: 20px;
+    color: white;
+    margin: 0 10px;
+}
+.copyright{
+    color: cadetblue
 }
