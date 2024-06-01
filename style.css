@@ -209,7 +209,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2% 5%;
+    padding: 2% 5% 1% 5%;
 }
 .footer_logo{
     margin: 0 8% 0 3%;
@@ -253,11 +253,26 @@
     color: white;
     margin-bottom: 20px;
 }
+.footer_contactme_email{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    padding: 2px 0;
+    margin: 0 5px;
+}
 .footer_contactme_email h1{
     font-size: 20px;
-    color: white;
+    color: #29C8FF;
     margin: 0 10px;
+    text-align: center;
 }
 .copyright{
-    color: cadetblue
+    background-color: #29C8FF;
+    padding: 0 1%;
+}
+.copyright h1{
+    font-size: 10px;
+    color: white;
+    text-align: right;
 }
