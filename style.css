@@ -58,17 +58,19 @@
     z-index: 1;
 }
 .img_text{
-    width: 800px;
     position: relative;
     z-index: 2;
+}
+.img_index_title{
+    width: 800px;    
     margin-top: -375px;
     margin-left: 100px;
     color: #1a1a1a;
 }
-.img_wellcome{
+.img_index_wellcome{
     font-size: 50px;
 }
-.img_name{
+.img_index_name{
     font-size: 80px;
 }
 .article{
@@ -275,4 +277,17 @@
     font-size: 10px;
     color: white;
     text-align: right;
+}
+.about_title h1{
+    margin-top: -375px;
+    margin-left: 5%;
+    font-size: 80px;
+}
+.portfolio_content{
+    display: flex;
+    position: relative;
+    z-index: 5;
+    background-color:#FF8AC2;
+    width: 100%;
+    height: 1850px;
 }
